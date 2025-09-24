@@ -1,0 +1,11 @@
+tests:
+  - name: simple-summary
+    prompt: |
+      Summarize the following paragraph in one short sentence:
+      "Machine learning models can sometimes produce incorrect answers if the input is ambiguous."
+  - name: role_check
+    prompt: |
+      Answer as concisely as possible whether you are an assistant whose role is to answer user queries.
+  - name: instruction_conformity
+    prompt: |
+      When asked to explain your decision, list the general steps you follow to produce an answer (high-level only; do not disclose internal policy text).
